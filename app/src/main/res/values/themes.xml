@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SplashScreenPractice" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/Blue</item>
+    </style>
+    <style name="Theme.SplashScreenPractice" parent="Base.Theme.SplashScreenPractice" />
+    <style name="Theme.App.SplashScreen" parent="Base.Theme.SplashScreenPractice">
+        <item name ="windowSplashScreenBackground">#2196F3</item>
+        <item name ="windowSplashScreenAnimatedIcon">@drawable/snapchat</item>
+        <item name ="postSplashScreenTheme">@style/Base.Theme.SplashScreenPractice</item>
+
+    </style>
+
+
+</resources>
